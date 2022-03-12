@@ -12,6 +12,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -22,6 +23,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
         app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
         tools:text="David33454" />
 
     <TextView
@@ -29,7 +31,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/tvUsername"
+        android:layout_margin="10dp"
+        app:flow_horizontalBias="0.1"
         app:layout_constraintStart_toEndOf="@+id/ivProfileImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constrainedWidth="true"
         tools:text="This is really cool project that people should review so I can get a job" />
 
 
